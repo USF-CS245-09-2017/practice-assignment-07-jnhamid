@@ -1,10 +1,10 @@
 
 public interface List<T> {
 	
-	public void add(T item);
-	public void add(int pos, T item);
-	public T get(int pos);
-	public T remove(int pos);
-	public int size();
+	 void add(T item);
+	void add(int pos, T item);
+	T get(int pos);
+	T remove(int pos);
+	int size();
 
 }
